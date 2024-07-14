@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+.bg-img-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  min-height: 100%;
+  background-size: cover;
+}
+
+.yellow {
+  background-color: #eab308;
+}
