@@ -3,12 +3,52 @@
   padding: 0;
   border-style: border-box;
 }
-.bg-img-con {
+.container{
   background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
-  min-height: 100%;
-  background-size: cover;
+  display:flex;
+  height: 100vh;
+  justify-content: center;
 }
-
+.bg-img-con {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.heading{
+  color: #ffffff;
+  font-family:Bree Serif;
+  text-align: center;
+  font-size:42px;
+}
+.button-con{
+  align-self: center;
+}
+.button{
+  padding:10px 40px;
+  margin:10px;
+  border: 0;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size:18px;
+}
 .yellow {
   background-color: #eab308;
+  color:#ffffff;
+}
+.white{
+  background-color: #ffffff;
+  color: #323f4b;
+}
+.blue{
+  background-color: #1d4ed8;
+  color:#ffffff;
+} 
+
+@media screen and (max-width: 576px){
+  .button-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
